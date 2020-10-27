@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 int main(void)
 {
 	_printf("this is the case %!\n");
@@ -54,7 +53,6 @@ int _printf(const char *format, ...)
 			}
 		}
 	}
-	printf("%d\n", b);
 	va_end(list);
 	return (b);
 }
